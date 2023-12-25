@@ -2,6 +2,7 @@
 
 .navbar {
   height: 100px;
+  background-color: transparent;
 
   .wrapper {
     max-width: 1366px;
@@ -27,6 +28,7 @@
     .social {
       display: flex;
       gap: 20px;
+      padding: 20px;
 
       img {
         width: 18px;

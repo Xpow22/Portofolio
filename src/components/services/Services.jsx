@@ -29,10 +29,8 @@ const Services = () => {
       className="services"
       variants={variants}
       initial="initial"
-      // animate="animate"
-      // whileInView="animate"
       ref={ref}
-      animate={"animate"}
+      animate={isInView ? "animate" : "initial"}
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
@@ -41,72 +39,62 @@ const Services = () => {
         </p>
         <hr />
       </motion.div>
-      <motion.div className="titleContainer" variants={variants}>
-        <div className="title">
-          <img src="/people.webp" alt="" />
-          <h1>
-            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
-          </h1>
-        </div>
-        <div className="title">
-          <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
-          </h1>
-          <button>WHAT WE DO?</button>
-        </div>
-      </motion.div>
       <motion.div className="listContainer" variants={variants}>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Immersive Apps</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Immersive Apps is an application for mentee management,
+            including mentee lists, mentee classes, user lists, and a page for feedback from
+            mentors to mentees. The technology used is ReactJS we also use RESTfull API and
+            FIGMA as UI/UX design.
           </p>
-          <button>Go</button>
+          <a href="https://github.com/Xpow22/Immersive-App" target="_blank" rel="noopener noreferrer">
+            <button>Go</button>
+          </a>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>HRIS Apps</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            HRIS-App is an application used for employee management in terms of
+            submitting time-off, reimbursement, attendance and HR management. The technology
+            used is ReactJS and Redux, we also use RESTfull API and FIGMA as UI/UX design.
           </p>
-          <button>Go</button>
+          <a href="https://github.com/HRIS-APP-TEAM-3/Frontend_immersive" target="_blank" rel="noopener noreferrer">
+            <button>Go</button>
+          </a>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>EVVE Apps</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            EVVE is an online ticket sales application that makes
+            it easy for users to buy tickets without the need to come to the location and social
+            distance because of the use of QR codes as a substitute for traditional tickets. This
+            project uses technology from React.js and RESTfull API from the Backend team.
           </p>
-          <button>Go</button>
+          <a href="https://github.com/Capstone-Project-Team-2/Frontend-Immersive" target="_blank" rel="noopener noreferrer">
+            <button>Go</button>
+          </a>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Point Of Sale</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            POS applications are designed for various types of businesses, from retail to restaurants. Increase your operational efficiency and enhance the customer experience by using our innovative and customizable POS application. This project uses technologies from React.js, Next.js and RESTful API.
           </p>
-          <button>Go</button>
+          <a href="#your-link-for-Point-Of-Sale" target="_blank" rel="noopener noreferrer">
+            <button>Go</button>
+          </a>
         </motion.div>
       </motion.div>
     </motion.div>
