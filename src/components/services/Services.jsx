@@ -44,14 +44,11 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Immersive Apps</h2>
+          <h2>Notes Apps</h2>
           <p>
-            Immersive Apps is an application for mentee management,
-            including mentee lists, mentee classes, user lists, and a page for feedback from
-            mentors to mentees. The technology used is ReactJS we also use RESTfull API and
-            FIGMA as UI/UX design.
+          Notes App: A user-friendly note-taking application that helps you organize your ideas, thoughts, and tasks. Its intuitive interface and powerful features make it an ideal tool for students, professionals, and anyone who wants to stay on top of their notes. The technology used is ReactJS, Framer Motion, Tailwind and we also utilize RESTful API.
           </p>
-          <a href="https://github.com/Xpow22/Immersive-App" target="_blank" rel="noopener noreferrer">
+          <a href="https://notes-app-iota-swart.vercel.app/" target="_blank" rel="noopener noreferrer">
             <button>Go</button>
           </a>
         </motion.div>
@@ -80,7 +77,7 @@ const Services = () => {
             distance because of the use of QR codes as a substitute for traditional tickets. This
             project uses technology from React.js and RESTfull API from the Backend team.
           </p>
-          <a href="https://github.com/Capstone-Project-Team-2/Frontend-Immersive" target="_blank" rel="noopener noreferrer">
+          <a href="https://evve.vercel.app/" target="_blank" rel="noopener noreferrer">
             <button>Go</button>
           </a>
         </motion.div>
@@ -88,11 +85,14 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Point Of Sale</h2>
+          <h2>SDMS</h2>
           <p>
-            POS applications are designed for various types of businesses, from retail to restaurants. Increase your operational efficiency and enhance the customer experience by using our innovative and customizable POS application. This project uses technologies from React.js, Next.js and RESTful API.
+          Developed an application called SDMS (Sustainability Development Management System). This application helps organizations manage their environmental, social, and economic impacts associated with their operations and strategic decisions. My contributions included: 
+           Web Design: Participated in designing the application interface using Figma. 
+          Collaboration: Collaborated with the UI/UX team to build the application using Draw.io for the design flow and Figma for the UI. 
+          Technology Stack: Utilized Laravel, Javascript, JQuery, Bootstrap, and RESTful API for development.
           </p>
-          <a href="#your-link-for-Point-Of-Sale" target="_blank" rel="noopener noreferrer">
+          <a href="https://sdms.id/" target="_blank" rel="noopener noreferrer">
             <button>Go</button>
           </a>
         </motion.div>
