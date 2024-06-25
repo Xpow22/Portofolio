@@ -56,13 +56,11 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>HRIS Apps</h2>
+          <h2>Netflix-Clone</h2>
           <p>
-            HRIS-App is an application used for employee management in terms of
-            submitting time-off, reimbursement, attendance and HR management. The technology
-            used is ReactJS and Redux, we also use RESTfull API and FIGMA as UI/UX design.
+          Netflix-Clone is a web application designed to mimic the functionality of the popular streaming service Netflix. Built with React, Vite, and TypeScript, this project ensures a modern and efficient development workflow. The application allows users to browse and stream a variety of movies and TV shows, manage their watchlist, and receive personalized recommendations. It consumes a mock API from The Movie Database (TMDB) to provide dynamic and up-to-date content.
           </p>
-          <a href="https://github.com/HRIS-APP-TEAM-3/Frontend_immersive" target="_blank" rel="noopener noreferrer">
+          <a href="https://netflix-clone-diska22.vercel.app/" target="_blank" rel="noopener noreferrer">
             <button>Go</button>
           </a>
         </motion.div>

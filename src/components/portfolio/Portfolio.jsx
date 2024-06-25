@@ -7,10 +7,11 @@ const items = [
     id: 1,
     title: "SDMS",
     img: "/sdms.png",
-    desc: "Developed an application called SDMS (Strategic Sustainability Management System). This application helps organizations manage their environmental, social, and economic impacts associated with their operations and strategic decisions. My contributions included: \n" +
-          "* Web Design: Participated in designing the application interface using Figma. \n" +
-          "* Collaboration: Collaborated with the UI/UX team to build the application using Draw.io for the design flow and Figma for the UI. \n" +
-          "* Technology Stack: Utilized Laravel, jQuery, and RESTful API for development.",
+    desc:
+      "Developed an application called SDMS (Strategic Sustainability Management System). This application helps organizations manage their environmental, social, and economic impacts associated with their operations and strategic decisions. My contributions included: \n" +
+      "* Web Design: Participated in designing the application interface using Figma. \n" +
+      "* Collaboration: Collaborated with the UI/UX team to build the application using Draw.io for the design flow and Figma for the UI. \n" +
+      "* Technology Stack: Utilized Laravel, jQuery, and RESTful API for development.",
     demoLink: "https://sdms.id/",
   },
   {
@@ -27,7 +28,13 @@ const items = [
     desc: "EVVE is an online ticket sales application that makes it easy for users to buy tickets without the need to come to the location and maintain social distance because of the use of QR codes as a substitute for traditional tickets. This project uses technology from React.js and RESTful API from the Backend team.",
     demoLink: "https://evve.vercel.app/",
   },
-  
+  {
+    id: 1,
+    title: "Netflix-Clone",
+    img: "/netflix.png",
+    desc: "Netflix-Clone is a web application designed to mimic the functionality of the popular streaming service Netflix. Built with React, Vite, and TypeScript, this project ensures a modern and efficient development workflow. The application allows users to browse and stream a variety of movies and TV shows, manage their watchlist, and receive personalized recommendations. It consumes a mock API from The Movie Database (TMDB) to provide dynamic and up-to-date content.",
+    demoLink: "https://netflix-clone-diska22.vercel.app/login",
+  },
 ];
 
 const Single = ({ item }) => {
