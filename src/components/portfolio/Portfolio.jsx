@@ -23,10 +23,10 @@ const items = [
   },
   {
     id: 3,
-    title: "EVVE Apps",
-    img: "/EVVE.png",
-    desc: "EVVE is an online ticket sales application that makes it easy for users to buy tickets without the need to come to the location and maintain social distance because of the use of QR codes as a substitute for traditional tickets. This project uses technology from React.js and RESTful API from the Backend team.",
-    demoLink: "https://evve.vercel.app/",
+    title: "Pokemon App",
+    img: "/pokemon1.png",
+    desc: "Pokemon App adalah sebuah aplikasi yang dibuat menggunakan teknologi dari React.js dan mockAPI dari https://pokeapi.co/. Aplikasi ini menampilkan daftar lengkap semua Pokémon, memberikan detail tentang setiap Pokémon, dan memungkinkan Anda menangkap Pokémon ke dalam Pokéball! Dengan antarmuka yang ramah pengguna dan fitur interaktif, aplikasi ini memberikan pengalaman seru bagi semua penggemar Pokémon. Jelajahi dunia Pokémon dan mulailah petualangan Anda dengan Pokemon App!",
+    demoLink: "https://pokemon-app-peach-three.vercel.app/",
   },
   {
     id: 1,
@@ -44,8 +44,7 @@ const Single = ({ item }) => {
     target: ref,
   });
 
-  const y = useTransform(scrollYProgress, [0, 1], [-150, 150]); // Nilai y disesuaikan
-  const marginTop = useTransform(scrollYProgress, [0, 1], [0, 500]); // Nilai marginTop disesuaikan
+  const marginTop = useTransform(scrollYProgress, [0, 1], [0, 500]); 
 
   return (
     <section>

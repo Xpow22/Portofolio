@@ -68,14 +68,11 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>EVVE Apps</h2>
+          <h2>Pokemon App</h2>
           <p>
-            EVVE is an online ticket sales application that makes
-            it easy for users to buy tickets without the need to come to the location and social
-            distance because of the use of QR codes as a substitute for traditional tickets. This
-            project uses technology from React.js and RESTfull API from the Backend team.
+Pokemon App adalah sebuah aplikasi yang dibuat menggunakan teknologi dari React.js dan mockAPI dari https://pokeapi.co/. Aplikasi ini menampilkan daftar lengkap semua Pokémon, memberikan detail tentang setiap Pokémon, dan memungkinkan Anda menangkap Pokémon ke dalam Pokéball! Dengan antarmuka yang ramah pengguna dan fitur interaktif, aplikasi ini memberikan pengalaman seru bagi semua penggemar Pokémon. Jelajahi dunia Pokémon dan mulailah petualangan Anda dengan Pokemon App!
           </p>
-          <a href="https://evve.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <a href="https://pokemon-app-peach-three.vercel.app/" target="_blank" rel="noopener noreferrer">
             <button>Go</button>
           </a>
         </motion.div>
