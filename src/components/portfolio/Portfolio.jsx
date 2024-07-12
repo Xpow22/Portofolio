@@ -53,7 +53,7 @@ const Single = ({ item }) => {
           <div className="imageContainer" ref={ref} style={{ marginTop }}>
             <img src={item.img} alt="" />
           </div>
-          <motion.div className="textContainer" style={{ y }}>
+          <motion.div className="textContainer" style={{marginTop: "80px"}} >
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             <a href={item.demoLink} target="_blank" rel="noopener noreferrer">
